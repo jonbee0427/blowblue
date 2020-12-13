@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+#list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#list td, #list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+}
+
+#list tr:nth-child(even){background-color: #66ffcf;}
+
+#list tr:hover {background-color: #ddd;}
+
+#list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(0, 179, 119);
+  color: white;
+}
+
+#edit {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#edit td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#edit td:nth-child(1) {
+  width:100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(0, 179, 119);
+  color: white;
+}
+
+#question {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    background-color: lightblue;
+}
+
+.lleft {
+	float: left;
+	margin-left: 20px;
+}
+
+.rright {
+	float: right;
+	margin-right: 20px;
+}
+
+.background{
+	background-color: #b3ffe7;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #66ffcf;
+}
+
+.right {
+  right: 0;
+  background-color:  #b3ffe7;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 400px;
+
+}
+
+#question {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+}
+
+input[type="radio"] {
+outline: none;
+margin : 20px 20px 20px 20px;
+}
+
+label {
+border: 2px solid black;
+border-radius: 20px;
+background-color: white;
+font-size: 20px;
+padding : 8px;
+}
+
+#answer {
+	margin-top: 150px;
+	margin-bottom : 100px;
+}
+
+
